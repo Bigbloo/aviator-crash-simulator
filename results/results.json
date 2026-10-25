@@ -1,0 +1,192 @@
+{
+  "model": {
+    "rtp": 0.97,
+    "seed": 2026
+  },
+  "distribution": {
+    "rounds": 1000000,
+    "median_crash": 1.93,
+    "bins": [
+      {
+        "range": "1.00x (instant crash)",
+        "share_pct": 3.97
+      },
+      {
+        "range": "1.01x-1.99x",
+        "share_pct": 47.54
+      },
+      {
+        "range": "2.00x-4.99x",
+        "share_pct": 29.1
+      },
+      {
+        "range": "5.00x-9.99x",
+        "share_pct": 9.7
+      },
+      {
+        "range": "10.00x-99.99x",
+        "share_pct": 8.71
+      },
+      {
+        "range": "100x and above",
+        "share_pct": 0.98
+      }
+    ],
+    "reach": [
+      {
+        "multiplier": 1.1,
+        "observed_pct": 88.152,
+        "theoretical_pct": 88.182
+      },
+      {
+        "multiplier": 1.2,
+        "observed_pct": 80.773,
+        "theoretical_pct": 80.833
+      },
+      {
+        "multiplier": 1.5,
+        "observed_pct": 64.635,
+        "theoretical_pct": 64.667
+      },
+      {
+        "multiplier": 2,
+        "observed_pct": 48.484,
+        "theoretical_pct": 48.5
+      },
+      {
+        "multiplier": 3,
+        "observed_pct": 32.281,
+        "theoretical_pct": 32.333
+      },
+      {
+        "multiplier": 5,
+        "observed_pct": 19.383,
+        "theoretical_pct": 19.4
+      },
+      {
+        "multiplier": 10,
+        "observed_pct": 9.687,
+        "theoretical_pct": 9.7
+      },
+      {
+        "multiplier": 20,
+        "observed_pct": 4.852,
+        "theoretical_pct": 4.85
+      },
+      {
+        "multiplier": 50,
+        "observed_pct": 1.939,
+        "theoretical_pct": 1.94
+      },
+      {
+        "multiplier": 100,
+        "observed_pct": 0.976,
+        "theoretical_pct": 0.97
+      }
+    ],
+    "observed_rtp_at_2x_pct": 96.97
+  },
+  "flat": [
+    {
+      "target": 1.2,
+      "win_rate_pct": 80.83,
+      "theoretical_win_rate_pct": 80.83,
+      "mean_end_balance": 700.1,
+      "median_end_balance": 708.0,
+      "p10_end_balance": 504.0,
+      "p90_end_balance": 888.0,
+      "sessions_in_profit_pct": 2.0,
+      "sessions_broke_pct": 0.0,
+      "median_longest_losing_streak": 4,
+      "p90_longest_losing_streak": 5
+    },
+    {
+      "target": 1.5,
+      "win_rate_pct": 64.66,
+      "theoretical_win_rate_pct": 64.67,
+      "mean_end_balance": 698.7,
+      "median_end_balance": 697.5,
+      "p10_end_balance": 405.0,
+      "p90_end_balance": 990.0,
+      "sessions_in_profit_pct": 9.7,
+      "sessions_broke_pct": 0.2,
+      "median_longest_losing_streak": 6,
+      "p90_longest_losing_streak": 8
+    },
+    {
+      "target": 2.0,
+      "win_rate_pct": 48.52,
+      "theoretical_win_rate_pct": 48.5,
+      "mean_end_balance": 705.1,
+      "median_end_balance": 700.0,
+      "p10_end_balance": 300.0,
+      "p90_end_balance": 1100.0,
+      "sessions_in_profit_pct": 16.5,
+      "sessions_broke_pct": 2.1,
+      "median_longest_losing_streak": 9,
+      "p90_longest_losing_streak": 12
+    },
+    {
+      "target": 3.0,
+      "win_rate_pct": 32.31,
+      "theoretical_win_rate_pct": 32.33,
+      "mean_end_balance": 700.9,
+      "median_end_balance": 690.0,
+      "p10_end_balance": 60.0,
+      "p90_end_balance": 1260.0,
+      "sessions_in_profit_pct": 23.8,
+      "sessions_broke_pct": 9.3,
+      "median_longest_losing_streak": 15,
+      "p90_longest_losing_streak": 20
+    },
+    {
+      "target": 5.0,
+      "win_rate_pct": 19.41,
+      "theoretical_win_rate_pct": 19.4,
+      "mean_end_balance": 726.0,
+      "median_end_balance": 700.0,
+      "p10_end_balance": 0.0,
+      "p90_end_balance": 1500.0,
+      "sessions_in_profit_pct": 30.4,
+      "sessions_broke_pct": 21.1,
+      "median_longest_losing_streak": 25,
+      "p90_longest_losing_streak": 34
+    },
+    {
+      "target": 10.0,
+      "win_rate_pct": 9.69,
+      "theoretical_win_rate_pct": 9.7,
+      "mean_end_balance": 746.6,
+      "median_end_balance": 600.0,
+      "p10_end_balance": 0.0,
+      "p90_end_balance": 1900.0,
+      "sessions_in_profit_pct": 33.6,
+      "sessions_broke_pct": 38.9,
+      "median_longest_losing_streak": 46,
+      "p90_longest_losing_streak": 63
+    }
+  ],
+  "progressions": [
+    {
+      "strategy": "plus50",
+      "target": 2.0,
+      "sessions_broke_pct": 63.1,
+      "sessions_in_profit_pct": 29.3,
+      "mean_end_balance": 635.4
+    },
+    {
+      "strategy": "martingale",
+      "target": 2.0,
+      "sessions_broke_pct": 96.3,
+      "sessions_in_profit_pct": 15.4,
+      "mean_end_balance": 774.6
+    }
+  ],
+  "limits": {
+    "setup": "2.0x, $10 bets, stop at +30% / -25%, max 200 rounds",
+    "hit_stop_win_pct": 1.2,
+    "hit_stop_loss_pct": 15.3,
+    "sessions_in_profit_pct": 31.6,
+    "mean_end_balance": 944.2
+  }
+}
